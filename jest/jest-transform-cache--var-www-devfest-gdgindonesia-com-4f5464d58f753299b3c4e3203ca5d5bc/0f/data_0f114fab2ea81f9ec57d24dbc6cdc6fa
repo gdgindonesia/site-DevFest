@@ -1,0 +1,380 @@
+/* istanbul ignore next */"use strict";var data = {
+	"header": {
+		"title": "HACK BEYOND BOUNDARIES",
+		"description": "The biggest Google tech conference in Indonesia carefully crafted for you by GDG community, all about Android, Web and Cloud from the world experts!" },
+	"gdg_icon_materi": [
+	{ "nama": "Android N", "icon": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/icon-android-n.png" },
+	{ "nama": "Firebase", "icon": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/icon-firebase.png" },
+	{ "nama": "Google Cloud Platform", "icon": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/icon-google-cloud-platform.png" },
+	{ "nama": "Internet of Things", "icon": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/icon-iot.png" },
+	{ "nama": "Progressive Web App", "icon": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/icon-pwa.png" },
+	{ "nama": "Virtual Reality", "icon": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/icon-vr.png" }],
+
+	"events": [
+	{ "kota": "Jakarta", "tgl": "",
+		"logo": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Jakarta.png" },
+	{ "kota": "Depok", "tgl": "",
+		"logo": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Depok.png" },
+	{ "kota": "Bogor", "tgl": "",
+		"logo": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Bogor.png" },
+	{ "kota": "Surabaya", "tgl": "",
+		"logo": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Surabaya.png" },
+	{ "kota": "Semarang", "tgl": "",
+		"logo": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Semarang.png" },
+	{ "kota": "Yogyakarta", "tgl": "",
+		"logo": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Yogyakarta.png" }],
+
+	"partners": [
+	{ "url": "", "logo": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Partner-Chromplex.png" }],
+
+
+	"logo_gdg_indonesia": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Indonesia.png",
+	"logo_gdg_home": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Logo-GDG-Home.png",
+	"bannerimage": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/banner-image.png",
+	"about_gdg": {
+		"gdg": "Google Developer Groups (GDGs) are open and volunteers communities of developers who share a passion for Google technologies",
+		"gdgdevfest": "GDG DevFest is one day inspirational talk and seminar organized by Google Developer Group to learn and discuss about the updated Google technology, and recent technology condition in Indonesia and in the world.This year’s DevFest specifically discuss about the new technology and opportunity in mobile to reach the mobile-first generation." } };
+
+var data_depok = {
+	"kota": "Depok",
+	"tgl": "Saturday, 05 November 2016",
+	"speakers": [
+	/*	{"nama":"Andreas Senjaya", "job":"CEO iGrow", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Andreas Senjaya.png"},
+              	{"nama":"Hiro Wihardana", "job":"Founder&CEO CODEinc", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Hiro Wardhana.png"},
+              	{"nama":"Hasanul Hakim", "job":"Head of Mobile Development BukaLapak", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Hasanul Hakim.png"},
+              		{"nama":"Wahyu Rismawan", "job":"Software DEveloper BADR Interactive", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Wahyu Rismawan.png"},
+              {"nama":"	Sidiq Permana", "job":"Google Developer Expert in Android", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Sidiq Permanai.png"},
+              	{"nama":"Andrew Kurniadi", "job":"Google Expert in Android", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Andrew Kurniadi.png"}*/
+
+
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png" },
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male2.png" },
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male3.png" }],
+
+
+
+	"acara": [
+	{ "nama": "Seminar", "tgl": "Saturday, 05  November 2016", "waktu": "09.00 - 17.00", "tempat": "Universitas Gunadarma", "link": "http://bit.ly/gdgdevfest2016dpk" },
+	{ "nama": "Codelabs", "tgl": "Friday - Saturday, 04 -  05 November 2016", "waktu": "16.00", "tempat": "Code Margonda", "link": "http://bit.ly/codelabs2016dpk" }],
+
+	"Seminars": [
+	{ "nama": "Registration", "waktu": "09:00-10:00", "speaker": "" },
+	{ "nama": "Opening from GDG Manager", "waktu": "10:00-10:10", "speaker": "" },
+	{ "nama": "Opening from University of Gunadarma representative", "waktu": "10.10-10.20", "speaker": "" },
+	{ "nama": "Google I/O Recap", "waktu": "10:20-10:50", "speaker": "" },
+	{ "nama": "Progressive Web App", "waktu": "10:50-11:20", "speaker": "Yohan Totting, Google Developer Expert" },
+	{ "nama": "Google Cloud Platform", "waktu": "14:45-15:15", "speaker": "Wahyu Rismawan (Software DEveloper BADR Interactive)" },
+	{ "nama": "Break", "waktu": "15:15-16:00", "speaker": "" },
+	{ "nama": "Develop with Firebase", "waktu": "16:00-16:30", "speaker": "Sidiq Permana (Google Developer Expert)" },
+	{ "nama": "Android N: What’s New?", "waktu": "16:30-17:00", "speaker": "Andrew Kurniadi (Google Expert in Android)" },
+	{ "nama": "Closing & Networking", "waktu": "17:00-17:15", "speaker": "" }],
+
+	"workshops": [
+	{ "nama": "Registration", "waktu": "08:00-09:00", "speaker": "" },
+	{ "nama": "Firebase Workshop", "waktu": "09:00-12:00", "speaker": "" }],
+
+	"map": {
+		"nama": "Universitas Gunadarma", "alamat": "Jalan Margonda no 100 Depok", "email": "info@gunadarma.ac.id", "waktu": "12:00-18.00", "lat": "", "lon": "" } };
+
+
+var data_bogor = {
+	"kota": "Bogor",
+	"tgl": "Saturday, 22 October 2016",
+	"speakers": [
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png" },
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male2.png" },
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male3.png" }],
+
+
+
+
+	"acara": [
+	{ "nama": "Seminar", "tgl": "", "waktu": "12.00-17.15", "tempat": "", "link": "http://bit.ly/gdg2016" },
+	{ "nama": "Codelabs", "tgl": "", "waktu": "08.00-12.00", "tempat": "", "link": "http://bit.ly/gdg2016" }],
+
+	"seminars": [
+	{ "nama": "Registration", "waktu": "12:00-13:00", "speaker": "" },
+	{ "nama": "Opening from GDG Manager", "waktu": "13:00-13:30", "speaker": "" },
+	/*	{"nama":"Welcome note from Google", "waktu":"13:15-13:30", "speaker":""}, */
+	{ "nama": "", "waktu": "13:30-14:00", "speaker": "Salestock" },
+	{ "nama": "Panel Discussion: Next Generation of Mobile", "waktu": "14:00-14:40", "speaker": "Speakers : Hiro Wihardana (Founder&CEO CODEinc), Andreas Senjaya (CEO iGrow), Hasanul Hakim (Head of Mobile Development BukaLapak)" },
+	{ "nama": "Google Cloud Platform", "waktu": "14:45-15:15", "speaker": "Wahyu Rismawan (Software DEveloper BADR Interactive)" },
+	{ "nama": "Break", "waktu": "15:15-16:00", "speaker": "" },
+	{ "nama": "Develop with Firebase", "waktu": "16:00-16:30", "speaker": "Sidiq Permana (Google Developer Expert)" },
+	{ "nama": "Android N: What’s New?", "waktu": "16:30-17:00", "speaker": "Andrew Kurniadi (Google Expert in Android)" },
+	{ "nama": "Closing & Networking", "waktu": "17:00-17:15", "speaker": "" }],
+
+	"workshops": [
+	{ "nama": "Registration", "waktu": "08:00-09:00", "speaker": "" },
+	{ "nama": "Firebase Workshop", "waktu": "09:00-12:00", "speaker": "" }],
+
+	"map": {
+		"nama": "Universitas Gunadarma", "alamat": "Jalan Margonda no 100 Depok", "email": "info@gunadarma.ac.id", "waktu": "12:00-18.00", "lat": "", "lon": "" } };
+
+var data_jakarta = {
+	"kota": "Jakarta",
+	"tgl": "Saturday, 29 October 2016",
+	"speakers": [
+	/*	{"nama":"	Putri Izzati", "job":"GDG Manager Jakarta", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Putri Izzati.png"},
+              		{"nama":"Andri Yadi", "job":"CEO Dycode", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png"},
+              	{"nama":"Alamanda", "job":"Former VP GO-JEK", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Alamanda Shantika.png"},
+              			{"nama":"Stanisiaus", "job":"Salestock", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Stanislaus.png"},
+              
+              			{"nama":"Ronald Ishak", "job":"CEO Hacktiv8", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Ronald Ishak.png"},
+              					{"nama":"Robert Kubis", "job":"Advocat Google Cloud Platform", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Robert Kubis.png"},
+              					{"nama":"Ibnu Sina Wardy", "job":"Google Expert in Android", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Ibnu Sina.png"},
+              							{"nama":"Borrys Hasian", "job":"Google Expert in UX/UI", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Borrys Hasian.png"}*/
+
+
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png" },
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male2.png" },
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male3.png" }],
+
+
+
+
+	"acara": [
+	{ "nama": "Seminar", "tgl": "Saturday, 29 October 2016", "waktu": "12.00-17.15", "tempat": "Universitas Trisakti", "link": "http://bit.ly/gdgdevfest2016jkt" },
+	{ "nama": "Codelabs", "tgl": "Saturday, 29 October 2016", "waktu": "08.00-12.00", "tempat": "Universitas Trisakti", "link": "http://bit.ly/codelabs2016jkt" }],
+
+	"seminars": [
+	{ "nama": "Registration", "waktu": "12:00-13:00", "speaker": "" },
+	{ "nama": "Opening from GDG Manager", "waktu": "13:00-13:15", "speaker": "Putri Izzati" },
+	/*	{"nama":"Welcome note from Google", "waktu":"13:15-13:30", "speaker":""},*/
+	{ "nama": "Internet of Things", "waktu": "13:30-14:00", "speaker": "Andri Yadi (CEO Dycode)" },
+	{ "nama": "Panel Discussion: Next Generation of Mobile", "waktu": "14:00-14:45", "speaker": "Alamanda Shantika (Former VP GO-JEK), Stanisiaus (Salestock), Ronald Ishak (CEO Hacktiv8)" },
+	{ "nama": "Google Cloud Platform", "waktu": "14:30-15:15", "speaker": "Robert Kubis (Advocat Google Cloud Platform)" },
+	{ "nama": "Break", "waktu": "15:15-16:00", "speaker": "" },
+	{ "nama": "Develop with Firebase", "waktu": "16:00-16:30", "speaker": "Ibnu Sina Wardy (Google Expert in Android)" },
+	{ "nama": "", "waktu": "16:30-17:00", "speaker": "Borrys Hasian (Google Expert in UX/UI)" },
+	{ "nama": "Closing & Networking", "waktu": "17:00-17:15", "speaker": "" }],
+
+	"workshops": [
+	{ "nama": "Registration", "waktu": "08:00-09:00", "speaker": "" },
+	{ "nama": "Firebase Workshop", "waktu": "09:00-12:00", "speaker": "" }],
+
+	"map": {
+		"nama": "Universitas Gunadarma", "alamat": "Jalan Margonda no 100 Depok", "email": "info@gunadarma.ac.id", "waktu": "12:00-18.00", "lat": "", "lon": "" } };
+
+var data_semarang = {
+	"kota": "Semarang",
+	"tgl": "Sunday, 06 November 2016",
+	"speakers": [
+	/*{"nama":"Putranto", "job":"Google Manager Semarang", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png"},
+              {"nama":"Yohan Totting", "job":"Google Expert in Web Technology", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Yohan Totting.png"},
+              {"nama":"Andi Taru", "job":"Google Manager", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png"},
+              	{"nama":"Andri Yadi", "job":"CEO Dycode", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Andri Yadi.png"},
+              {"nama":"Tety Sianipar", "job":"CTO Kerjabilitas", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Tety Sianipar.png"},
+              	{"nama":"Sidiq Permana", "job":"Google Developer Expert Android", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Sidiq Permanai.png"},
+              		{"nama":"Pratama Wijaya", "job":"Android Developer Kulina", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png"},
+              			{"nama":"Peter Shearer", "job":"Managing Director AR & Co", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Peter Shearer.png"}*/
+
+
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png" },
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male2.png" },
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male3.png" }],
+
+
+
+	"acara": [
+	{ "nama": "Seminar", "tgl": "Sunday, 06 November 2016", "waktu": "12.00-17.15", "tempat": "to be confirmed", "link": "http://bit.ly/gdgdevfest2016smg" },
+	{ "nama": "Codelabs", "tgl": "Sunday, 06 November 2016", "waktu": "08.00-12.00", "tempat": "to be confirmed", "link": "http://bit.ly/codelabs2016smg" }],
+
+	"seminars": [
+	{ "nama": "Registration", "waktu": "12:00-13:00", "speaker": "" },
+	{ "nama": "Opening from GDG Manager", "waktu": "13:00-13:15", "speaker": "Putranto" },
+	/*	{"nama":"Welcome note from Google", "waktu":"13:15-13:30", "speaker":""},*/
+	{ "nama": "Progressive Web Apps", "waktu": "13:30-14:00", "speaker": "Yohan Totting (Google Expert in Web Technology)" },
+	{ "nama": "Panel Discussion: Next Generation of Mobile", "waktu": "14:00-14:30", "speaker": "Andi Taru, Andri Yadi (CEO Dycode), Tety Sianipar (CTO Kerjabilitas)" },
+	{ "nama": "Google Cloud Platform", "waktu": "14:30-15:15", "speaker": "Sidiq Permana (Google Developer Expert Android)" },
+	{ "nama": "Break", "waktu": "15:15-16:00", "speaker": "" },
+	{ "nama": "Develop with Firebase", "waktu": "16:30-17:00", "speaker": "Pratama Wijaya (Android Developer Kulina)" },
+	{ "nama": "Daydream VR", "waktu": "16:30-17:00", "speaker": "Peter Shearer (Managing Director AR & Co)" },
+	{ "nama": "Closing & Networking", "waktu": "17:00-17:15", "speaker": "" }],
+
+	"workshops": [
+	{ "nama": "Registration", "waktu": "08:00-09:00", "speaker": "" },
+	{ "nama": "Firebase Workshop", "waktu": "09:00-12:00", "speaker": "" }],
+
+	"map": {
+		"nama": "Universitas Gunadarma", "alamat": "Jalan Margonda no 100 Depok", "email": "info@gunadarma.ac.id", "waktu": "12:00-18.00", "lat": "", "lon": "" } };
+
+var data_surabaya = {
+	"kota": "Surabaya",
+	"tgl": "Sunday, 30 October 2016",
+	"speakers": [
+	/*		{"nama":"Yohan Totting", "job":"Google Expert in Web Technology", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Yohan Totting.png"},
+              {"nama":"Alamanda Shantika", "job":"Former VP GO-JEK", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Alamanda Shantika.png"},
+              	{"nama":"Leonika Sari", "job":"Reblood", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Leonika Sari.png"},
+              {"nama":"Trimikha Valentinus", "job":"Senior Developer Ogilvy Australia", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Trimikha Valentius.png"},
+              {"nama":"Robert Kubis", "job":"Developer Advocate Google Cloud Platform", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Robert Kubis.png"},
+              {"nama":"Ibnu Sina Wardy ", "job":"Google Developer Expert in Android", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Ibnu Sina.png"},
+              		{"nama":"Tanya Maryati ", "job":"", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png"}*/
+
+
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png" },
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male2.png" },
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male3.png" }],
+
+
+
+	"acara": [
+	{ "nama": "Seminar", "tgl": "Saturday, 29 October 2016", "waktu": "13.00-17.15", "tempat": " ISTTS", "link": "http://bit.ly/gdgdevfest2016sby" },
+	{ "nama": "Codelabs", "tgl": "Saturday, 29 October 2016", "waktu": "08.00-12.00", "tempat": " ISTTS", "link": "http://bit.ly/codelabs2016sby" }],
+
+	"seminars": [
+	{ "nama": "Registration", "waktu": "12:00-13:00", "speaker": "" },
+	{ "nama": "Opening from GDG Manager", "waktu": "13:00-13:15", "speaker": "" },
+	/*	{"nama":"Welcome note from Google", "waktu":"13:15-13:30", "speaker":""},*/
+	{ "nama": "Progressive Web Apps", "waktu": "13:30-14:00", "speaker": "Yohan Totting (Google Expert in Web Technology)" },
+	{ "nama": "Panel Discussion: Next Generation of Mobile", "waktu": "14:00-14:30", "speaker": "Alamanda Shantika (Former VP GO-JEK), Leonika Sari (Reblood), Trimikha Valentinus (Senior Developer Ogilvy Australia)" },
+	{ "nama": "Google Cloud Platform", "waktu": "14:30-15:15", "speaker": "Robert Kubis (Developer Advocate Google Cloud Platform)" },
+	{ "nama": "Break", "waktu": "15:15-16:00", "speaker": "" },
+	{ "nama": "Develop with Firebase", "waktu": "16:30-17:00", "speaker": "Ibnu Sina Wardy (Google Developer Expert in Android)" },
+	{ "nama": "Android N: What’s New?", "waktu": "16:30-17:00", "speaker": "Tanya Maryati" },
+	{ "nama": "Closing & Networking", "waktu": "17:00-17:15", "speaker": "" }],
+
+	"workshops": [
+	{ "nama": "Registration", "waktu": "08:00-09:00", "speaker": "" },
+	{ "nama": "Firebase Workshop", "waktu": "09:00-12:00", "speaker": "" }],
+
+	"map": {
+		"nama": "Universitas Gunadarma", "alamat": "Jalan Margonda no 100 Depok", "email": "info@gunadarma.ac.id", "waktu": "12:00-18.00", "lat": "", "lon": "" } };
+
+var data_yogyakarta = {
+	"kota": "Yogyakarta",
+	"tgl": "Saturday, 05 November 2016",
+	"speakers": [
+	/*	{"nama":"Guntur Sarwohad", "job":"Google Manager Yogyakarta", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png"},
+              	{"nama":"Yohan Totting", "job":"Google Expert in Web Technology", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Yohan Totting.png"},
+              	{"nama":"Fachry Bafadal", "job":"Google Manager", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png"},
+              	{"nama":"Tetty", "job":"", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Tety Sianipar.png"},
+              	{"nama":"Tanya", "job":"", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png"},
+              	{"nama":"Saga Iqranegara", "job":"", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png"},
+              	{"nama":"Gamatekno", "job":"UNCONFIRM", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png"},
+              	{"nama":"GO-JEK", "job":"UNCONFIRM", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png"},
+              	{"nama":"Pratama Wijaya", "job":"Android Developer Kulina", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png"},
+              		{"nama":"Peter Shearer", "job":"Managing Director AR&Co", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Peter Shearer.png"},
+              				{"nama":"Andri Yadi", "job":"CEO Dycode", "foto":"https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Andri Yadi.png"}*/
+
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male.png" },
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male2.png" },
+	{ "nama": "", "job": "", "foto": "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/Speaker-Dummy-Male3.png" }],
+
+
+	"acara": [
+	{ "nama": "Seminar", "tgl": "Saturday, 05 November 2016", "waktu": "12.00-17.15", "tempat": "UKDW", "link": "http://bit.ly/gdgdevfest2016jog" },
+	{ "nama": "Codelabs", "tgl": "Saturday, 05 November 2016", "waktu": "08.00-12.00", "tempat": "UKDW", "link": "http://bit.ly/codelabs2016jog" }],
+
+	"seminars": [
+	{ "nama": "Registration", "waktu": "12:00-13:00", "speaker": "" },
+	{ "nama": "Opening from GDG Manager", "waktu": "13:00-13:15", "speaker": "Guntur Sarwohadi" },
+	/*	{"nama":"Welcome note from Google", "waktu":"13:15-13:30", "speaker":""},*/
+	{ "nama": "Progressive Web Apps", "waktu": "13:30-14:00", "speaker": "Yohan Totting (Google Expert in Web Technology)" },
+	{ "nama": "Panel Discussion: Next Generation of Mobile", "waktu": "14:00-14:45", "speaker": "Fachry Bafadal, Tetty, Tanya, Saga Iqranegara, Gamatekno, GO-JEK" },
+	{ "nama": "Develop with Firebase", "waktu": "14:45-15:15", "speaker": "Pratama Wijaya (Android Developer Kulina)" },
+	{ "nama": "Break", "waktu": "15:15-16:00", "speaker": "" },
+	{ "nama": "Daydream with VR", "waktu": "16:30-17:00", "speaker": "Peter Shearer (Managing Director AR&Co)" },
+	{ "nama": "Internet of Things", "waktu": "16:30-17:00", "speaker": "Andri Yadi (CEO Dycode)" },
+	{ "nama": "Closing & Networking", "waktu": "17:00-17:15", "speaker": "" }],
+
+	"workshops": [
+	{ "nama": "Registration", "waktu": "08:00-09:00", "speaker": "" },
+	{ "nama": "Firebase Workshop", "waktu": "09:00-12:00", "speaker": "" }],
+
+	"map": {
+		"nama": "Universitas Gunadarma", "alamat": "Jalan Margonda no 100 Depok", "email": "info@gunadarma.ac.id", "waktu": "12:00-18.00", "lat": "", "lng": "" } };
+
+
+
+exports.datamain = data;
+exports.datadepok = data_depok;
+
+var array_kota = { "Depok": data_depok, "Bogor": data_bogor, "Jakarta": data_jakarta, "Semarang": data_semarang, "Surabaya": data_surabaya, "Yogyakarta": data_yogyakarta };
+
+exports.getNavmenu = function () {
+	var i;
+	var dataNavMenu = [];
+	for (i = 0; i < data.events.length; i++) {
+		dataNavMenu.push([data.events[i].kota, data.events[i].kota]);
+	}
+	return dataNavMenu;
+};
+
+
+exports.getSubtitle = function (kota) {
+	var dataKota = array_kota[kota];
+	return dataKota;
+};
+
+
+exports.getAppIcon = function () {
+	var i;
+	var dataAppIcon = [];
+	for (i = 0; i < data.gdg_icon_materi.length; i++) {
+		dataAppIcon.push([data.gdg_icon_materi[i].icon, data.gdg_icon_materi[i].nama]);
+	}
+	return dataAppIcon;
+};
+
+
+exports.getFooterLogo = function () {
+	var i;
+	var logo = [];
+	for (i = 0; i < data.events.length; i++) {
+		logo.push(data.events[i].logo);
+	}
+	return logo;
+};
+
+
+exports.getPartnerLogo = function () {
+	var i;
+	var logo = [];
+	for (i = 0; i < data.partners.length; i++) {
+		logo.push(data.partners[i].logo);
+	}
+	return logo;
+};
+
+
+exports.getDaftarAcaraKota = function (kota, acara) {
+	var i;
+	var acaraKota = [];
+	var dataKota = array_kota[kota];
+	for (i = 0; i < dataKota[acara].length; i++) {
+		acaraKota.push([dataKota[acara][i].nama, dataKota[acara][i].waktu, dataKota[acara][i].speaker]);
+	}
+	return acaraKota;
+};
+
+exports.getSpeakerKota = function (kota) {
+	var i;
+	var speakerKota = [];
+	var dataKota = array_kota[kota];
+	for (i = 0; i < dataKota['speakers'].length; i++) {
+		speakerKota.push([dataKota.speakers[i].foto, dataKota.speakers[i].nama, dataKota.speakers[i].job]);
+	}
+	return speakerKota;
+};
+
+exports.imageCarousel = [
+["https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/GDG-Foto2.jpg"],
+["https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/GDG-Foto3.jpg"],
+["https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/GDG-Foto4.jpg"],
+["https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/GDG-Foto5.jpg"]];
+
+
+
+
+
+exports.getRegisterAcara = function (kota) {
+
+	var dataKota = array_kota[kota];
+	var acaraRegister =
+	[
+	[dataKota.acara[0].nama, dataKota.acara[0].tempat, dataKota.acara[0].tgl, dataKota.acara[0].waktu, ["Register", dataKota.acara[0].link]],
+	[dataKota.acara[1].nama, dataKota.acara[1].tempat, dataKota.acara[1].tgl, dataKota.acara[1].waktu, ["Register", dataKota.acara[1].link]]];
+
+	return acaraRegister;
+};

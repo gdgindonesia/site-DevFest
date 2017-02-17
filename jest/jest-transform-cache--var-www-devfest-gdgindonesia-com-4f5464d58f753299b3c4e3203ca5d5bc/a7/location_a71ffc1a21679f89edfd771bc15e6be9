@@ -1,0 +1,52 @@
+/* istanbul ignore next */"use strict";Object.defineProperty(exports, "__esModule", { value: true });var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();var /* istanbul ignore next */_react = require("react"); /* istanbul ignore next */var _react2 = _interopRequireDefault(_react);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self, call) {if (!self) {throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call && (typeof call === "object" || typeof call === "function") ? call : self;}function _inherits(subClass, superClass) {if (typeof superClass !== "function" && superClass !== null) {throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;}var
+
+Location = function (_Component) {_inherits(Location, _Component);function Location() {_classCallCheck(this, Location);return _possibleConstructorReturn(this, (Location.__proto__ || Object.getPrototypeOf(Location)).apply(this, arguments));}_createClass(Location, [{ key: "render", value: function render()
+    {
+      return (
+        /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ className: "container-fluid nav-section-item section-location" },
+          /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ className: "row section-location-content" },
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ className: "col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" },
+              /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ className: "row" },
+                /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ className: "col-sm-12" }),
+
+
+                /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"ul", /* istanbul ignore next */{ className: "list-unstyled" },
+                  /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */null,
+                    /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ className: "col-sm-12" },
+                      /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ className: "row" },
+                        this.props.lists.map(function (list, key) {
+                          return (
+                            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ className: "col-sm-6 section-location-item", key: key },
+                              /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"ul", /* istanbul ignore next */{ className: "list-unstyled" },
+                                /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */{ className: "location-title" }, list[0]),
+                                /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */{ className: "location-list-item" },
+                                  /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"ul", /* istanbul ignore next */{ className: "list-inline location-detail" },
+                                    /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */null, /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"i", /* istanbul ignore next */{ className: "fa fa-map-marker" })),
+                                    /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */{ className: "location-text location-text-caption" }, list[1]))),
+
+
+                                /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */{ className: "location-list-item" },
+                                  /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"ul", /* istanbul ignore next */{ className: "list-inline location-detail" },
+                                    /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */null, /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"i", /* istanbul ignore next */{ className: "fa fa-calendar" })),
+                                    /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */{ className: "location-text " }, list[2], /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"br", /* istanbul ignore next */null), list[3]))),
+
+
+
+                                /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */{ className: "location-link" }, /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"a", /* istanbul ignore next */{ href: list[4][1] }, list[4][0])))));
+
+
+
+                        }))))))))));
+
+
+
+
+
+
+
+
+
+    } }]);return Location;}(_react.Component); /* istanbul ignore next */exports.default =
+
+
+Location;

@@ -1,0 +1,30 @@
+$bt-color: rgb(244,244,244);
+.section-bottom{
+  background-color: $bt-color;
+  margin: 0px;
+  padding: 15px;
+  ul{
+    padding-left: 5%;
+    color: $ungu;
+    font-weight: 300;
+    margin: 0px;
+  }
+}
+
+.hidden-bottom{
+  color: shade($bt-color, 30%);
+  a,a:focus{
+    color: shade($bt-color, 30%);
+    text-decoration: none;
+    &:hover{
+      text-decoration: none;
+      color: shade($bt-color, 50%);
+    }
+  }
+}
+
+.pull-right{
+  @media(max-width: 763px){
+    margin-right: 30px;
+  }
+}

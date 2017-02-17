@@ -1,0 +1,47 @@
+/* istanbul ignore next */"use strict";Object.defineProperty(exports, "__esModule", { value: true });var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();
+var /* istanbul ignore next */_react = require("react"); /* istanbul ignore next */var _react2 = _interopRequireDefault(_react);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self, call) {if (!self) {throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call && (typeof call === "object" || typeof call === "function") ? call : self;}function _inherits(subClass, superClass) {if (typeof superClass !== "function" && superClass !== null) {throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;}var
+Carousel = function (_Component) {_inherits(Carousel, _Component);function Carousel() {_classCallCheck(this, Carousel);return _possibleConstructorReturn(this, (Carousel.__proto__ || Object.getPrototypeOf(Carousel)).apply(this, arguments));}_createClass(Carousel, [{ key: "render", value: function render()
+    {
+      return (
+
+
+        /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ id: "myCarousel", className: "carousel slide", /* istanbul ignore next */"data-ride": "carousel" },
+          /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"ol", /* istanbul ignore next */{ className: "carousel-indicators" },
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */{ /* istanbul ignore next */"data-target": "#myCarousel", /* istanbul ignore next */"data-slide-to": "0", className: "active" }),
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */{ /* istanbul ignore next */"data-target": "#myCarousel", /* istanbul ignore next */"data-slide-to": "1" }),
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */{ /* istanbul ignore next */"data-target": "#myCarousel", /* istanbul ignore next */"data-slide-to": "2" }),
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"li", /* istanbul ignore next */{ /* istanbul ignore next */"data-target": "#myCarousel", /* istanbul ignore next */"data-slide-to": "3" })),
+
+
+          /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ className: "carousel-inner cover", role: "listbox" },
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ className: "item active" },
+
+              /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"img", /* istanbul ignore next */{ src: "https://s3-ap-southeast-1.amazonaws.com/gdgdevfest/GDG-Foto1.jpg", alt: "Conference Google", width: "460", height: "345" })),
+
+            this.props.lists.map(function (list, key) {
+              return (
+                /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ className: "item " },
+                  /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"img", /* istanbul ignore next */{ key: key[0], src: list[0], alt: "", width: "460", height: "345" })));
+
+
+            })),
+
+
+
+
+
+
+          /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"a", /* istanbul ignore next */{ className: "left carousel-control", href: "#myCarousel", role: "button", /* istanbul ignore next */"data-slide": "prev" },
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"span", /* istanbul ignore next */{ className: "glyphicon glyphicon-chevron-left", /* istanbul ignore next */"aria-hidden": "true" }),
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"span", /* istanbul ignore next */{ className: "sr-only" }, /* istanbul ignore next */"Previous")),
+
+          /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"a", /* istanbul ignore next */{ className: "right carousel-control", href: "#myCarousel", role: "button", /* istanbul ignore next */"data-slide": "next" },
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"span", /* istanbul ignore next */{ className: "glyphicon glyphicon-chevron-right", /* istanbul ignore next */"aria-hidden": "true" }),
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"span", /* istanbul ignore next */{ className: "sr-only" }, /* istanbul ignore next */"Next"))));
+
+
+
+
+    } }]);return Carousel;}(_react.Component); /* istanbul ignore next */exports.default =
+
+Carousel;

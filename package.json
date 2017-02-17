@@ -1,0 +1,22 @@
+{
+  "name": "app-gdg",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "ejs-loader": "^0.3.0",
+    "react-scripts": "0.4.3"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "google-map-react": "^0.19.0",
+    "jquery": "^3.1.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

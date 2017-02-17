@@ -1,0 +1,85 @@
+.header-title{
+  font-size: 65px;
+  color: $ungu;
+  @media(max-width: 768px){
+    font-size: 40px;
+  }
+  @media(max-width: 768px){
+    font-size: 40px;
+  }
+  @media(max-width: 480px){
+    font-size:40px;
+  }
+}
+
+  .header-tgl{
+    font-size: 40px;
+    color: $ungu;
+    @media(max-width: 768px){
+      font-size: 15px;
+    }
+    @media(max-width: 768px){
+      font-size: 15px;
+    }
+    @media(max-width: 480px){
+      font-size:15px;
+    }
+  }
+
+
+.header-caption{
+  color: rgb(111,111,111);
+  font-weight: lighter;
+  font-size: 36px;
+  @media(max-width: 768px){
+    font-size: 24px;
+  }
+}
+
+.header-subtitle{
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  margin-right: 30px;
+  color: $blue;
+  font-weight: 600;
+  margin-top: 20px;
+  text-align: right;
+  width: 340px;
+  font-size: 40px;
+  @media(max-width: 768px){
+    float: left;
+    text-align: left;
+  }
+}
+.header-sub-caption{
+    font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  @media(max-width: 768px){
+    text-align: left;
+  }
+}
+.section-hidden{
+  visibility: hidden;
+}
+
+.section-hidden-mobile{
+  @media(max-width: 768px){
+  visibility: hidden;}
+}
+
+
+.section-header{
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.backgorund-header{
+  background-image:url("http://www.drodd.com/images14/white-wallpaper10.jpg");
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-color: white;
+  background-blend-mode: multiply;
+}

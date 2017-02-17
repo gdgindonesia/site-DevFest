@@ -1,0 +1,38 @@
+/* istanbul ignore next */'use strict';Object.defineProperty(exports, "__esModule", { value: true });var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();var /* istanbul ignore next */_react = require('react'); /* istanbul ignore next */var _react2 = _interopRequireDefault(_react);
+var /* istanbul ignore next */_headerkota = require('../headerkota'); /* istanbul ignore next */var _headerkota2 = _interopRequireDefault(_headerkota);
+var /* istanbul ignore next */_footer = require('../footer'); /* istanbul ignore next */var _footer2 = _interopRequireDefault(_footer);
+var /* istanbul ignore next */_location = require('../location'); /* istanbul ignore next */var _location2 = _interopRequireDefault(_location);
+var /* istanbul ignore next */_speaker = require('../speaker'); /* istanbul ignore next */var _speaker2 = _interopRequireDefault(_speaker);
+var /* istanbul ignore next */_acara = require('../acara'); /* istanbul ignore next */var _acara2 = _interopRequireDefault(_acara);
+var /* istanbul ignore next */_map = require('../map'); /* istanbul ignore next */var _map2 = _interopRequireDefault(_map);
+var /* istanbul ignore next */_partner = require('../partner'); /* istanbul ignore next */var _partner2 = _interopRequireDefault(_partner);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self, call) {if (!self) {throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call && (typeof call === "object" || typeof call === "function") ? call : self;}function _inherits(subClass, superClass) {if (typeof superClass !== "function" && superClass !== null) {throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;}var
+
+Kota = function (_Component) {_inherits(Kota, _Component);function Kota() {_classCallCheck(this, Kota);return _possibleConstructorReturn(this, (Kota.__proto__ || Object.getPrototypeOf(Kota)).apply(this, arguments));}_createClass(Kota, [{ key: 'render', value: function render()
+
+    {
+      var json = require('../data.js');
+
+      return (
+        /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */'div', /* istanbul ignore next */null,
+          /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */_headerkota2.default, /* istanbul ignore next */{ title: json.datamain.header.title, subtitle: json.getSubtitle(this.props.kota).kota, caption: json.getSubtitle(this.props.kota).tgl, desc: json.datamain.header.description }),
+
+          /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */_location2.default, /* istanbul ignore next */{ lists: json.getRegisterAcara(this.props.kota) }),
+          /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */'div', /* istanbul ignore next */{ className: 'container' },
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */_speaker2.default, /* istanbul ignore next */{ lists: json.getSpeakerKota(this.props.kota) }),
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */_acara2.default, /* istanbul ignore next */{ title: "Talks", lists: json.getDaftarAcaraKota(this.props.kota, "seminars") }),
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */_acara2.default, /* istanbul ignore next */{ title: 'Codelabs', lists: json.getDaftarAcaraKota(this.props.kota, "workshops") })),
+
+          /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */_map2.default, /* istanbul ignore next */{ nama: this.props.kota, kota: this.props.kota }),
+          /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */'div', /* istanbul ignore next */{ className: 'container' },
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */_footer2.default, /* istanbul ignore next */{ main: json.datamain.logo_gdg_indonesia, links: json.getFooterLogo() }),
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */_partner2.default, /* istanbul ignore next */{
+              links: json.getPartnerLogo() }))));
+
+
+
+
+
+    } }]);return Kota;}(_react.Component); /* istanbul ignore next */exports.default =
+
+
+Kota;

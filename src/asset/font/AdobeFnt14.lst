@@ -1,0 +1,269 @@
+%!Adobe-FontList 1.14
+%Locale:0x421
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Heavitas
+FamilyName:Heavitas
+StyleName:Regular
+FullName:Heavitas
+MenuName:Heavitas
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Heavitas.ttf
+DataFormat:sfntData
+FileLength:122632
+FileModTime:1448186412
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ProductSans-Regular
+FamilyName:Product Sans
+StyleName:Regular
+FullName:Product Sans
+MenuName:Product Sans
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\HYvgU2fE2nRJvZ5JFAumwZS3E-kSBmtLoNJPDtbj2Pk.ttf
+DataFormat:sfntData
+FileLength:36468
+FileModTime:1467576174
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Black
+FamilyName:Roboto
+StyleName:Black
+FullName:Roboto Black
+MenuName:Roboto Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Roboto-Black.ttf
+DataFormat:sfntData
+FileLength:142472
+FileModTime:1467521004
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-BlackItalic
+FamilyName:Roboto
+StyleName:Black Italic
+FullName:Roboto Black Italic
+MenuName:Roboto Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Roboto-BlackItalic.ttf
+DataFormat:sfntData
+FileLength:149644
+FileModTime:1467521004
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+FullName:Roboto Bold
+MenuName:Roboto
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Roboto-Bold.ttf
+DataFormat:sfntData
+FileLength:135820
+FileModTime:1467521004
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-BoldItalic
+FamilyName:Roboto
+StyleName:Bold Italic
+FullName:Roboto Bold Italic
+MenuName:Roboto
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Roboto-BoldItalic.ttf
+DataFormat:sfntData
+FileLength:144700
+FileModTime:1467521004
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Italic
+FamilyName:Roboto
+StyleName:Italic
+FullName:Roboto Italic
+MenuName:Roboto
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Roboto-Italic.ttf
+DataFormat:sfntData
+FileLength:148540
+FileModTime:1467521004
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Light
+FamilyName:Roboto
+StyleName:Light
+FullName:Roboto Light
+MenuName:Roboto Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Roboto-Light.ttf
+DataFormat:sfntData
+FileLength:140276
+FileModTime:1467521004
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-LightItalic
+FamilyName:Roboto
+StyleName:Light Italic
+FullName:Roboto Light Italic
+MenuName:Roboto Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Roboto-LightItalic.ttf
+DataFormat:sfntData
+FileLength:145932
+FileModTime:1467521004
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Medium
+FamilyName:Roboto
+StyleName:Medium
+FullName:Roboto Medium
+MenuName:Roboto Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Roboto-Medium.ttf
+DataFormat:sfntData
+FileLength:137308
+FileModTime:1467521004
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-MediumItalic
+FamilyName:Roboto
+StyleName:Medium Italic
+FullName:Roboto Medium Italic
+MenuName:Roboto Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Roboto-MediumItalic.ttf
+DataFormat:sfntData
+FileLength:147876
+FileModTime:1467521004
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+FullName:Roboto Regular
+MenuName:Roboto
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Roboto-Regular.ttf
+DataFormat:sfntData
+FileLength:145348
+FileModTime:1467521004
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Thin
+FamilyName:Roboto
+StyleName:Thin
+FullName:Roboto Thin
+MenuName:Roboto Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Roboto-Thin.ttf
+DataFormat:sfntData
+FileLength:130044
+FileModTime:1467521004
+WeightClass:250
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-ThinItalic
+FamilyName:Roboto
+StyleName:Thin Italic
+FullName:Roboto Thin Italic
+MenuName:Roboto Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\Media Pembelajaran\Project\GDGDevFest\Font\Roboto-ThinItalic.ttf
+DataFormat:sfntData
+FileLength:132376
+FileModTime:1467521004
+WeightClass:250
+WidthClass:5
+AngleClass:0
+%EndFont
+

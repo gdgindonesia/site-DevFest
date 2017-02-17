@@ -1,0 +1,112 @@
+.navbar-default{
+  background-color: $blue;
+  border-radius: 0px;
+
+}
+.item-dot{
+  color: white;
+}
+
+.line{
+  color: $blue;
+  height: 5px;
+
+}
+
+.item-dots{
+  margin-top: 15px;
+  margin-right: 10%;
+}
+
+@media (max-width: 1136px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 5px;
+    }
+    .navbar-nav>li {
+        float: none;
+
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+.navbar-toggle{
+  border: 1px solid $ungu !important;
+  .icon-bar{
+    background-color: $ungu !important;
+  }
+  &:hover,&:focus{
+    background-color: shade(white, 2%) !important;
+  }
+}
+
+.navbar-nav{
+  margin-top: 0px;
+  border: 0px;
+
+  li{
+    a,a:hover,a:focus,button,button:hover,button:focus{
+      background-color: white !important;
+      color: $ungu !important;
+        font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 21px;
+      border: 0px !important;
+      border-radius: 0px;
+      margin: 0px;
+      @media(max-width: 1136px){
+        font-size: 26px;
+        font-weight: 500;
+        // margin-top: 20px;
+        // margin-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      @media(max-width: 768px){
+        font-weight: 500;
+        padding-left: 30px;
+        font-size: 18px;
+      }
+
+    }
+  }
+  .active{
+    a,a:hover,a:focus,button,button:hover,button:focus{
+      background-color: white !important;
+      color: $ungu !important;
+      @media(min-width: 768px){
+        border-bottom: 2px solid $ungu !important;
+      }
+      @media(max-width: 1136px){
+        background-color: $ungu !important;
+        color: white !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GDGDevFest Indonesia 2016</title>
+    <link rel="shortcut icon" href="./src/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/8928b1e525.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!--
+      Design by Crocias.com
+    -->
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+        $(window).scroll(function() {
+          if($(this).scrollTop()) {
+            $('.navbar-navmenu').addClass('navbar-navmenu-shadow');
+          } else {
+            $('.navbar-navmenu').removeClass('navbar-navmenu-shadow');
+          }
+        });
+
+        $('#nav-menu-Jakarta').on('click', function(){
+
+          var i;
+          for(i=0;i<3;i++){
+            console.log("KEKLIK");
+          var geoJakarta = new google.maps.Geocoder;
+          geoJakarta.geocode({'address': 'Ragunan, Jalan RM. Harsono, RT.2, Ragunan, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta, Indonesia'},function(results, status){
+                if (status == google.maps.GeocoderStatus.OK) {
+                  var location =  results[0].geometry.location;
+                  var myLatLng = {lat: location.lat(), lng: location.lng()};
+
+                  // Create a map object and specify the DOM element for display.
+              
+                  var map = new google.maps.Map(document.getElementById('map-location-Jakarta'), {
+                    center: myLatLng,
+                    scrollwheel: false,
+                    zoom: 15
+                  });
+
+                  // Create a marker and set its position.
+                  var marker = new google.maps.Marker({
+                    map: map,
+                    position: myLatLng,
+                    title: 'Hello World!'
+                  });
+
+                } else {
+                  alert("Geocode was not successful for the following reason: " + status);
+                }
+          });
+
+        }
+});
+
+        $('#nav-menu-Bogor').on('click', function(){
+          var geoBogor = new google.maps.Geocoder;
+          geoBogor.geocode({'address': 'Bogor'},function(results, status){
+                if (status == google.maps.GeocoderStatus.OK) {
+                  var location =  results[0].geometry.location;
+                  var myLatLng = {lat: location.lat(), lng: location.lng()};
+
+                  // Create a map object and specify the DOM element for display.
+                  var map = new google.maps.Map(document.getElementById('map-location-Bogor'), {
+                    center: myLatLng,
+                    scrollwheel: false,
+                    zoom: 15
+                  });
+
+                  // Create a marker and set its position.
+                  var marker = new google.maps.Marker({
+                    map: map,
+                    position: myLatLng,
+                    title: 'Hello World!'
+                  });
+
+
+                } else {
+                  alert("Geocode was not successful for the following reason: " + status);
+                }
+          });
+        });
+
+        $('#nav-menu-Depok').on('click', function(){
+          var geoDepok = new google.maps.Geocoder;
+          geoDepok.geocode({'address': 'Depok'},function(results, status){
+                if (status == google.maps.GeocoderStatus.OK) {
+                  var location =  results[0].geometry.location;
+                  var myLatLng = {lat: location.lat(), lng: location.lng()};
+
+                  // Create a map object and specify the DOM element for display.
+                  var map = new google.maps.Map(document.getElementById('map-location-Depok'), {
+                    center: myLatLng,
+                    scrollwheel: false,
+                    zoom: 15
+                  });
+
+                  // Create a marker and set its position.
+                  var marker = new google.maps.Marker({
+                    map: map,
+                    position: myLatLng,
+                    title: 'Hello World!'
+                  });
+
+                } else {
+                  alert("Geocode was not successful for the following reason: " + status);
+                }
+          });
+        });
+
+        $('#nav-menu-Surabaya').on('click', function(){
+          var geoSurabaya = new google.maps.Geocoder;
+          geoSurabaya.geocode({'address': 'Surabaya'},function(results, status){
+                if (status == google.maps.GeocoderStatus.OK) {
+                  var location =  results[0].geometry.location;
+                  var myLatLng = {lat: location.lat(), lng: location.lng()};
+
+                  // Create a map object and specify the DOM element for display.
+                  var map = new google.maps.Map(document.getElementById('map-location-Surabaya'), {
+                    center: myLatLng,
+                    scrollwheel: false,
+                    zoom: 15
+                  });
+
+                  // Create a marker and set its position.
+                  var marker = new google.maps.Marker({
+                    map: map,
+                    position: myLatLng,
+                    title: 'Hello World!'
+                  });
+
+                } else {
+                  alert("Geocode was not successful for the following reason: " + status);
+                }
+          });
+        });
+
+        $('#nav-menu-Semarang').on('click', function(){
+          var geoSemarang = new google.maps.Geocoder;
+          geoSemarang.geocode({'address': 'Semarang'},function(results, status){
+                if (status == google.maps.GeocoderStatus.OK) {
+                  var location =  results[0].geometry.location;
+                  var myLatLng = {lat: location.lat(), lng: location.lng()};
+
+                  // Create a map object and specify the DOM element for display.
+                  var map = new google.maps.Map(document.getElementById('map-location-Semarang'), {
+                    center: myLatLng,
+                    scrollwheel: false,
+                    zoom: 15
+                  });
+
+                  // Create a marker and set its position.
+                  var marker = new google.maps.Marker({
+                    map: map,
+                    position: myLatLng,
+                    title: 'Hello World!'
+                  });
+
+                } else {
+                  alert("Geocode was not successful for the following reason: " + status);
+                }
+          });
+        });
+
+        $('#nav-menu-Yogyakarta').on('click', function(){
+          var geoYogyakarta = new google.maps.Geocoder;
+          geoYogyakarta.geocode({'address': 'Yogyakarta'},function(results, status){
+                if (status == google.maps.GeocoderStatus.OK) {
+                  var location =  results[0].geometry.location;
+                  var myLatLng = {lat: location.lat(), lng: location.lng()};
+
+                  // Create a map object and specify the DOM element for display.
+                  var map = new google.maps.Map(document.getElementById('map-location-Yogyakarta'), {
+                    center: myLatLng,
+                    scrollwheel: false,
+                    zoom: 15
+                  });
+
+                  // Create a marker and set its position.
+                  var marker = new google.maps.Marker({
+                    map: map,
+                    position: myLatLng,
+                    title: 'Hello World!'
+                  });
+
+
+                } else {
+                  alert("Geocode was not successful for the following reason: " + status);
+                }
+        });
+      });
+      var tick = [];
+      $('#navtabs .active a').click(function(event){
+        $(this).click();
+        // event.preventDefault();
+      });
+    });
+    $(document).on('click',function(){
+	$('.collapse').collapse('hide');
+})
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEvMKNV7wGgEmcIpfqB8fvyZKPJ8qZMDk" async defer></script>
+  </body>
+</html>

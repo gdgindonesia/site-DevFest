@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+@import "_var";
+@import "_index";
+@import "_navbar";
+@import "_section";
+@import "_navbar";
+@import "_navmenu";
+@import "_footer";
+@import "_about";
+@import "_location";
+@import "_header";
+@import "_acara";
+@import "_speaker";
+@import "_appicon";
+@import "_bannerimage";
+@import "_map";
+@import "_bottom";
+@import "_collapse";
+@import "_carousel";
+
+html,body{
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+.col-fit{
+  padding-left: 0px;
+  padding-right: 0px;
+}
